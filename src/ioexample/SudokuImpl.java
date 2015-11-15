@@ -32,8 +32,6 @@ import javax.swing.JTextField;
 public class SudokuImpl implements IGame{
 	//=========================================================================
 	//members
-	/** A kitoltott sudokut ellenorzo adattag. */
-	protected SudokuTester tester;
 	/** A sudoku feladvanyt tartalmazo fajl objektum. */
 	protected File source = null;
 	/** A jatek tablajan megjelenitett mezok. */
